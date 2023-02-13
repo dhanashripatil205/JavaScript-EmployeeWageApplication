@@ -140,3 +140,6 @@ let nonWorkingDaysNumber = employeeDailyWageAndHoursArray
     .filter(dailyHoursAndWage => dailyHoursAndWage.dailyHours == 0)
     .map(dailyHoursAndWage => dailyHoursAndWage.dayNumber);
 console.log("\nNon Working Days : " + nonWorkingDaysNumber);
+
+
+
